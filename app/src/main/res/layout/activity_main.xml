@@ -69,6 +69,7 @@
                     android:textStyle="bold"></TextView>
 
                 <TextView
+                    android:id="@+id/sumicm"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -93,6 +94,7 @@
                     android:textStyle="bold"></TextView>
 
                 <TextView
+                    android:id="@+id/sumexpp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -117,6 +119,7 @@
                     android:textStyle="bold"></TextView>
 
                 <TextView
+                    android:id="@+id/balance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"

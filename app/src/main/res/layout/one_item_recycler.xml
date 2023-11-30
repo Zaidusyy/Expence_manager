@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:backgroundTint="@color/sixty">
+    <View
+        android:id="@+id/periority1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="end"
+        android:background="@drawable/edittax_backgraound"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/note1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:text="Note demo"
+            android:textColor="@color/twenty"></TextView>
+        <TextView
+            android:id="@+id/amount1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="@color/ten"
+            android:textSize="20sp"
+            android:layout_below="@+id/note1"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01 Dec 2023 5:50 "
+            android:layout_below="@id/amount1"
+            android:id="@+id/date1"></TextView>
+        
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
