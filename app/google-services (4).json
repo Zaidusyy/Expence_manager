@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "635756607981",
+    "project_id": "exp-manager-bea62",
+    "storage_bucket": "exp-manager-bea62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635756607981:android:839ccd3d32cbfcd91c4fe4",
+        "android_client_info": {
+          "package_name": "com.android.zaid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfomO3NRp3CXDSf6iaPTW47kpkvjjtYas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
